@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>FaveThings</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Let us know about some of your favorite things.  Please fill out the form belows.</h1>
+      <div>
+        <form id="fave">
+          <div class="form-group">
+            <label for="fave1">First Favorite Thing:</label>
+            <input id="fave1" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="fave2">Second Favorite Thing:</label>
+            <input id="fave2" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="fave3">Third Favorite Thing:</label>
+            <input id="fave3" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="fave4">Another Favorite Thing:</label>
+            <input id="fave4" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+      <div id="return">
+        <p>Here are your favorite things: <span id="here"></span>.
+        </p>
+        <p> Selected stuff: <span id="here2"></span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
